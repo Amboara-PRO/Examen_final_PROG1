@@ -11,13 +11,13 @@ describe("Compte le nombre maximum de bobsleigh", function () {
         "X....",
         "X...X",
         "..X..",
-      ]).to.be.equal(3)
-    );
+      ])).to.be.equal(3)
+    ;
   });
 
 
   it("Doit retourner 0, si l'entrée contient N est inférieur à 4 ", function () {
-    expect(countMaxBobsleigh(3, ["....X", "....", "X...."]).to.equal(0));
+    expect(countMaxBobsleigh(3, ["..X", "...", "X.."])).to.be.equal(0);
   });
 
   it("Doit retourner 2, si N=8 et une ligne ne contient pas d'arbres ", function () {
@@ -31,8 +31,8 @@ describe("Compte le nombre maximum de bobsleigh", function () {
         "X.X.X..X",
         "..X..XXX",
         "XXXXXXXX",
-      ]).to.equal(2)
-    );
+      ])).to.be.equal(2)
+    ;
   });
 
   it("Doit retourner 0, si les lignes ne contiennent que des arbres", function () {
@@ -43,7 +43,7 @@ describe("Compte le nombre maximum de bobsleigh", function () {
         "XXXXX",
         "XXXXX",
         "XXXXX",
-      ]).to.equal(0)
-    );
+      ])).to.be.equal(0)
+    ;
   });
 });
