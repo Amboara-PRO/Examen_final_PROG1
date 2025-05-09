@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { describe, it } from "mocha";
-import { reduceDirections } from "./niveau2.js";
+import { reduceDirections } from "./niveau3.js";
 
 describe("Supprimer les directions qui sont opposés et réduire le plan au maximum", function () {
     it("Doit retourner ouest, si l'entrée est nord,sud,sud,est,ouest,nord,ouest ", function () {
