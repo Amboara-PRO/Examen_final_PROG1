@@ -1,0 +1,23 @@
+{
+  "name": "examen_final_prog1",
+  "version": "1.0.0",
+  "description": "examen_final_prog1",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amboara-PRO/Examen_final_PROG1.git"
+  },
+  "keywords": [
+    "prog1"
+  ],
+  "author": "Mikaiah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amboara-PRO/Examen_final_PROG1/issues"
+  },
+  "homepage": "https://github.com/Amboara-PRO/Examen_final_PROG1#readme"
+}

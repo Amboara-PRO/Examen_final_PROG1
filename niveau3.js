@@ -1,4 +1,4 @@
-function reduceDirections(directions) {
+export function reduceDirections(directions) {
     const nord = 'NORD'
     const sud = 'SUD'
     const est = 'EST'
